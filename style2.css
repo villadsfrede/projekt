@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html, body {
+  height: 97.5%;
+  background-color: #151621;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+
+#window {
+  height: 90%;
+  display: grid;
+  grid-template-columns: 25% 48% 25%;
+  grid-column-gap: 1%;
+}
+
+.window {
+  border: 3px solid #ffffff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+#main {
+  border: 3px solid #ffea00;;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  padding-top: 5%;
+}
+
+#storage {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  grid-template-columns: repeat(5, 19%);
+  grid-template-rows: repeat(5, 19%);
+  white-space: normal;
+  word-break: break-all;
+  grid-gap: 1%;
+}
+
+.number {
+  border: 0px;
+  width: 15%;
+  color: white;
+  background-color: inherit;
+}
+
+.text {
+
+}
+
+.container {
+  border: 2px solid #ffffff;
+  width: 90%;
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.button {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+#info {
+  height: 8%;
+}
+
+.storage_container {
+  border: 2px solid #ffffff;
+  padding: 2%;
+  text-align: center;
+}
+
+#import {
+  border-color: #ff0000;
+}
+
+#export {
+  border-color: #00ff1e;
+}
+
+#projekt {
+  margin-bottom: 5%;
+  border-bottom: 2px solid white;
+}
